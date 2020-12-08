@@ -11,6 +11,35 @@ event listeners, Math.random()
 
 // Write your code here 👇
 
+let rand = Math.ceil(Math.random() * 6);
+
+const dice1 = document.getElementById('dice1');
+const dice2 = document.getElementById('dice2');
+const dice3 = document.getElementById('dice3');
+const dice4 = document.getElementById('dice4');
+const dice5 = document.getElementById('dice5');
+const dice6 = document.getElementById('dice6');
+
+switch(rand) {
+    case 1:
+      dice1.classList.remove('hidden');
+      break;
+    case 2:
+      dice2.classList.remove('hidden');
+      break;
+    case 3:
+      dice3.classList.remove('hidden');
+      break;
+    case 4:
+      dice4.classList.remove('hidden');
+      break;
+    case 5:
+      dice5.classList.remove('hidden');
+      break;
+    case 6:
+      dice6.classList.remove('hidden');
+      break;
+  }
 
 /*
 
